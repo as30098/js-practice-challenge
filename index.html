@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="data.js"></script>
+    <!-- <script src="db.json"></script> -->
     <script src="index.js" defer></script>
 
     <title>Travel</title>
@@ -31,16 +31,16 @@
     <form id="new-animal-sighting-form">
         <h4>Add New Animal Sighting Post</h4>
         <label>Species: </label>
-        <input type="text" placeholder="Species">
+        <input name= "species" type="text" placeholder="Species">
 
         <label>Video Link: </label>
-        <input type="text" placeholder="Video Link">
+        <input name= "link" type="text" placeholder="Video Link">
 
         <label>Photo Link: </label>
-        <input type="text" placeholder="Photo Link">
+        <input name= "photo" type="text" placeholder="Photo Link">
 
         <label>Description: </label>
-        <textarea placeholder="Description"></textarea>
+        <textarea name= "description" placeholder="Description"></textarea>
 
         <input type="submit" value="Add Animal Sighting" />
     </form>
